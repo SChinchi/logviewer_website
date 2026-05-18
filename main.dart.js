@@ -28082,27 +28082,27 @@ r.w=A.cD(g.i(0,"lineCount"))
 r.x=A.cD(g.i(0,"repeat"))
 r.y=A.eS(g.i(0,"modIndex"))
 $.hr.push(r)}A.aJK()},
-aZV(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=$.aHZ()
-B.b.X(a.a)
-a.b.kl(!1)
-a=$.aHV()
-B.b.X(a.a)
-a.b.kl(!1)
-a=$.a4B()
-B.b.X(a.a)
-a.b.kl(!1)
-a=$.aHW()
-B.b.X(a.a)
-a.b.kl(!1)
-a=$.aI_()
-B.b.X(a.a)
-a.b.kl(!1)
-a=$.aHX()
-B.b.X(a.a)
-a.b.kl(!1)
-a=$.aHY()
-B.b.X(a.a)
-a.b.kl(!1)
+aZV(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=$.aHZ()
+B.b.X(b.a)
+b.b.kl(!1)
+b=$.aHV()
+B.b.X(b.a)
+b.b.kl(!1)
+b=$.a4B()
+B.b.X(b.a)
+b.b.kl(!1)
+b=$.aHW()
+B.b.X(b.a)
+b.b.kl(!1)
+b=$.aI_()
+B.b.X(b.a)
+b.b.kl(!1)
+b=$.aHX()
+B.b.X(b.a)
+b.b.kl(!1)
+b=$.aHY()
+B.b.X(b.a)
+b.b.kl(!1)
 s=A.be("^Could not load \\[.*\\] because it has missing dependencies:",!0,!1,!1)
 r=A.be("^Could not load \\[.*\\] because it is incompatible with:",!0,!1,!1)
 q=A.be("^Skipping \\[.*\\] because a newer version exists",!0,!1,!1)
@@ -28112,10 +28112,10 @@ n=A.be("BepInEx.Bootstrap.Chainloader:[:]?Start",!0,!1,!1)
 m=A.be("(RoR2Application|FixSystemInitializer).*UnityEngine.SetupCoroutine.InvokeMoveNext",!0,!0,!1)
 l=A.be("(MonoMod\\.RuntimeDetour\\.(IL)?Hook\\.\\.ctor|HarmonyLib\\.PatchClassProcessor\\.Patch)",!0,!1,!1)
 k=A.be("^Missing(Field|Method)Exception",!0,!1,!1)
-a=t.N
-j=A.av(a)
-i=A.y(a,t.I3)
-for(a=$.hr.length,h=0,g=0;g<$.hr.length;$.hr.length===a||(0,A.A)($.hr),++g){f=$.hr[g]
+b=t.N
+j=A.av(b)
+i=A.y(b,t.I3)
+for(b=$.hr.length,h=0,g=0;g<$.hr.length;$.hr.length===b||(0,A.A)($.hr),++g){f=$.hr[g]
 e=f.y
 if(e!=null)h=e
 d=f.b
@@ -28132,24 +28132,23 @@ c.b=f.b
 d=f.c
 d===$&&A.a()
 c.c=d
-d=f.d
-c.d=d
-b=f.e
-b===$&&A.a()
-c.e=b
-b=f.f
-b===$&&A.a()
-c.f=b
-b=f.r
-b===$&&A.a()
-c.r=b
-b=f.w
-b===$&&A.a()
-c.w=b
+c.d=f.d
+d=f.e
+d===$&&A.a()
+c.e=d
+d=f.f
+d===$&&A.a()
+c.f=d
+d=f.r
+d===$&&A.a()
+c.r=d
+d=f.w
+d===$&&A.a()
+c.w=d
 c.x=f.x
 c.y=f.y
 c.y=h
-c.d=A.l(f.ga3x())+"\n"+d
+c.d=A.l(c.ga3x())+"\n"+c.d
 $.a4B().a.push(c)}if(m.dd(f.d)!=null){d=f.a
 d===$&&A.a()
 d=d<2}else d=!1
@@ -28169,9 +28168,9 @@ d=d<2}else d=!1
 if(d){d=f.e
 d===$&&A.a()
 if(!i.az(d))i.m(0,f.e,f)
-else if(i.i(0,f.e).x<f.x)i.m(0,f.e,f)}}a=$.aHY().a
-B.b.W(a,new A.bh(i,i.$ti.h("bh<2>")))
-B.b.fv(a,new A.a7N())},
+else if(i.i(0,f.e).x<f.x)i.m(0,f.e,f)}}b=$.aHY().a
+B.b.W(b,new A.bh(i,i.$ti.h("bh<2>")))
+B.b.fv(b,new A.a7N())},
 aIY(){var s,r,q,p,o,n=$.aHZ().a
 B.b.X(n)
 s=$.dl().a
